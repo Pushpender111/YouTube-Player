@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="MusicPlayer.css">
+</head>
+<body>
+    <div class="header">
+        <h1>YOUTUBE FOCUS</h1>
+        <div class="listNav">
+            <button id="navigation">Hide</button>
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="list">
+            
+            <div class="musicAdder">
+                <input required type="text" name="" id="musicLink" placeholder="Paste Youtube link...">
+                <input required type="text" name="" id="musicTitle" placeholder="Enter Video name...">
+                <button id="addMusic">Add</button>
+            </div>
+            <div src="assets/play.png" class="musicList">
+
+            </div>
+        </div>
+        <div class="player">
+            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" id="musicPlayerFrame"  frameborder="0" allowfullscreen ></iframe>
+        </div>
+    </div>
+</body>
+<script src="MusicPlayer.js"></script>
+</html>
